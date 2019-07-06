@@ -1,0 +1,19 @@
+{
+  "name": "minimal-polyfills",
+  "version": "0.1.0",
+  "description": "...",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garronej/minimal-polyfills.git"
+  },
+  "scripts": {
+    "tsc": "node ./node_modules/typescript/bin/tsc -p ./tsconfig.json",
+    "test": "node ./dist/test/main"
+  },
+  "author": "Joseph Garrone",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
