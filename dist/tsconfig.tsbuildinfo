@@ -65,6 +65,10 @@
         "version": "a855b5f937eeff52fe6a8cee76f2b4ccdec808ebd3a388ba04505ab23ea99df4",
         "signature": "7440ddf3b6b24f583b2d1a5c2bf16226b6203e99c1e7a93e8337cb6056071007"
       },
+      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/string.prototype.startswith.ts": {
+        "version": "5e7a4c6096aff66f78ff25c0f76f4c8805f513849252c54bc8a1efee0252fcc3",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/weakmap.ts": {
         "version": "b17cc904902c54524021afe32786210d806706ac25e96beddbb831b9ac14226e",
         "signature": "8859f48246358af1e7e026f24ea47730737bb043c96e2228f4dfd22041fa589b"
@@ -124,6 +128,7 @@
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/arraybuffer.isview.ts",
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts",
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/set.ts",
+      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/string.prototype.startswith.ts",
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/weakmap.ts",
       "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/test/main.ts"
     ]
