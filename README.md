@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/bundlephobia/min/minimal-polyfills">
     <img src="https://img.shields.io/bundlephobia/minzip/minimal-polyfills">
     <img src="https://img.shields.io/david/garronej/minimal-polyfills">
-    <img src="https://img.shields.io/npm/l/ts-evt">
+    <img src="https://img.shields.io/npm/l/minimal-polyfills">
 </p>
 
 ---
