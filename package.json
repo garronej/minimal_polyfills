@@ -1,32 +1,34 @@
 {
-  "name": "minimal-polyfills",
-  "version": "1.0.1",
-  "description": "An ultra light-weight, nonexhaustive, polyfills library",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/garronej/minimal-polyfills.git"
-  },
-  "scripts": {
-    "tsc": "npx tsc -p tsconfig.json",
-    "test": "node ./dist/test/main"
-  },
-  "author": "Joseph Garrone",
-  "license": "MIT",
-  "keywords": [ 
-    "polyfills", 
-    "light-weight", 
-    "nonexhaustive",
-    "Map", 
-    "Set", 
-    "WeakMap", 
-    "typescript", 
-    "Array.prototype.find", 
-    "Array.prototype.from",
-    "Array.prototype.isView",
-    "String.prototype.startsWith"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^3.5.2"
-  }
+    "name": "minimal-polyfills",
+    "version": "1.0.2",
+    "main": "./dist/lib/index.js",
+    "types": "./dist/lib/index.d.ts",
+    "description": "An ultra light-weight, nonexhaustive, polyfills library",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garronej/minimal-polyfills.git"
+    },
+    "scripts": {
+        "tsc": "npx tsc -p tsconfig.json",
+        "test": "node ./dist/test/main"
+    },
+    "author": "Joseph Garrone",
+    "license": "MIT",
+    "keywords": [
+        "polyfills",
+        "light-weight",
+        "nonexhaustive",
+        "Map",
+        "Set",
+        "WeakMap",
+        "typescript",
+        "Array.prototype.find",
+        "Array.prototype.from",
+        "Array.prototype.isView",
+        "String.prototype.startsWith"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^3.5.2"
+    }
 }

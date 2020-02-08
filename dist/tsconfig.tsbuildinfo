@@ -73,6 +73,10 @@
         "version": "b17cc904902c54524021afe32786210d806706ac25e96beddbb831b9ac14226e",
         "signature": "8859f48246358af1e7e026f24ea47730737bb043c96e2228f4dfd22041fa589b"
       },
+      "../src/lib/index.ts": {
+        "version": "b7c0b0bc590d078188fd1fb869e40ecd656cf74423616ee770a0dc1fee15d6d8",
+        "signature": "1f3623a64afb9aed45fdf717404e39ccb0ab1d2437944e4072b85bc7ceec97cf"
+      },
       "../src/test/main.ts": {
         "version": "56ee9994ac45b2df6bca6c788802ab13655018237fb732cc568baa8933a166d7",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
@@ -105,12 +109,23 @@
       "../src/lib/weakmap.ts": [
         "../src/lib/map.ts"
       ],
+      "../src/lib/index.ts": [
+        "../src/lib/map.ts",
+        "../src/lib/set.ts",
+        "../src/lib/weakmap.ts"
+      ],
       "../src/test/main.ts": [
         "../src/lib/map.ts",
         "../src/lib/set.ts"
       ]
     },
-    "exportedModulesMap": {},
+    "exportedModulesMap": {
+      "../src/lib/index.ts": [
+        "../src/lib/map.ts",
+        "../src/lib/set.ts",
+        "../src/lib/weakmap.ts"
+      ]
+    },
     "semanticDiagnosticsPerFile": [
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
@@ -127,10 +142,11 @@
       "../src/lib/array.prototype.find.ts",
       "../src/lib/arraybuffer.isview.ts",
       "../src/lib/map.ts",
+      "../src/lib/set.ts",
       "../src/lib/string.prototype.startswith.ts",
       "../src/lib/weakmap.ts",
-      "../src/lib/set.ts",
-      "../src/test/main.ts"
+      "../src/test/main.ts",
+      "../src/lib/index.ts"
     ]
   },
   "version": "3.7.5"
