@@ -1,7 +1,7 @@
 {
   "name": "minimal-polyfills",
-  "version": "1.0.0",
-  "description": "An ultra light-weight, nonexhaustive, type safe, polyfills library for common data structures.",
+  "version": "1.0.1",
+  "description": "An ultra light-weight, nonexhaustive, polyfills library",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/garronej/minimal-polyfills.git"

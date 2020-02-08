@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/6702424/74083910-7305c180-4a69-11ea-9595-331c7976c292.png">  
 </p>
 <p align="center">
-    <i> 🎯An ultra light-weight, nonexhaustive, type safe, polyfills library for common data structures.🎯 </i>
+    <i> 🎯An ultra light-weight, nonexhaustive, polyfills library 🎯 </i>
     <br>
     <br>
     <img src="https://img.shields.io/bundlephobia/min/minimal-polyfills">
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/npm/l/ts-evt">
 </p>
 
-#
+---
 
 Set of polyfills for allowing usage of common data structures on older browsers ( Map, Set, WeakMap ).
 Focus is placed on bundle size rather than performance and transparency.  
