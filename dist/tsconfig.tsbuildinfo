@@ -1,80 +1,80 @@
 {
   "program": {
     "fileInfos": {
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es5.d.ts": {
-        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
-        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea",
+        "signature": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
         "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.core.d.ts": {
-        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
-        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
-        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
-        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
-        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
-        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
-        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
-        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
-        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
-        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
         "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
         "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
         "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
         "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
         "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
         "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/array.from.ts": {
+      "../src/lib/array.from.ts": {
         "version": "624bc00c02fbc75c64a9503550b36495190ffa748924e501625db3f5c4b22103",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/array.prototype.find.ts": {
+      "../src/lib/array.prototype.find.ts": {
         "version": "f1fa82a7123e3195c8f1ebc801e7c6febdfa034e6ffbc4ef3d82992d199ed887",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/arraybuffer.isview.ts": {
+      "../src/lib/arraybuffer.isview.ts": {
         "version": "8a247be8a4b6fd63a69b1306f1f5cdd0cd3017e5f0342092b98e944dd99adc09",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts": {
-        "version": "431f2f464296ffef0584275e4a40119fe7fdca652c374a32d12230663c71868f",
-        "signature": "2d162f406a62931fce0fb487b97ee27cebc186ecb9c6628f4e540e0cb3eeadaf"
+      "../src/lib/map.ts": {
+        "version": "23e7bae86df110ad8a68097750530f288c5117fe4c4b30e645b449d20fe156a5",
+        "signature": "7908ba1a7a694d123a1cf71a1f33b95e6f6e9e3b318e43fc4240d7e539835c69"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/set.ts": {
+      "../src/lib/set.ts": {
         "version": "a855b5f937eeff52fe6a8cee76f2b4ccdec808ebd3a388ba04505ab23ea99df4",
         "signature": "7440ddf3b6b24f583b2d1a5c2bf16226b6203e99c1e7a93e8337cb6056071007"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/string.prototype.startswith.ts": {
+      "../src/lib/string.prototype.startswith.ts": {
         "version": "5e7a4c6096aff66f78ff25c0f76f4c8805f513849252c54bc8a1efee0252fcc3",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/weakmap.ts": {
+      "../src/lib/weakmap.ts": {
         "version": "b17cc904902c54524021afe32786210d806706ac25e96beddbb831b9ac14226e",
         "signature": "8859f48246358af1e7e026f24ea47730737bb043c96e2228f4dfd22041fa589b"
       },
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/test/main.ts": {
-        "version": "73bf5a93a160b1aaf9f111a80be57c8d15c057454d5bfb85f3d27cca3ded3c02",
+      "../src/test/main.ts": {
+        "version": "56ee9994ac45b2df6bca6c788802ab13655018237fb732cc568baa8933a166d7",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       }
     },
@@ -86,7 +86,7 @@
         "lib.es2015.d.ts"
       ],
       "declaration": true,
-      "outDir": "C:/Users/joseph/Dropbox/shell/github/minimal-polyfills/dist",
+      "outDir": "./",
       "strictNullChecks": true,
       "sourceMap": false,
       "newLine": 1,
@@ -95,43 +95,43 @@
       "strictPropertyInitialization": true,
       "strictFunctionTypes": true,
       "incremental": true,
-      "project": "./tsconfig.json",
-      "configFilePath": "C:/Users/joseph/Dropbox/shell/github/minimal-polyfills/tsconfig.json"
+      "project": "../tsconfig.json",
+      "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/set.ts": [
-        "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts"
+      "../src/lib/set.ts": [
+        "../src/lib/map.ts"
       ],
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/weakmap.ts": [
-        "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts"
+      "../src/lib/weakmap.ts": [
+        "../src/lib/map.ts"
       ],
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/test/main.ts": [
-        "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts",
-        "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/set.ts"
+      "../src/test/main.ts": [
+        "../src/lib/map.ts",
+        "../src/lib/set.ts"
       ]
     },
     "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es5.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/array.from.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/array.prototype.find.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/arraybuffer.isview.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/map.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/set.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/string.prototype.startswith.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/lib/weakmap.ts",
-      "c:/users/joseph/dropbox/shell/github/minimal-polyfills/src/test/main.ts"
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../src/lib/array.from.ts",
+      "../src/lib/array.prototype.find.ts",
+      "../src/lib/arraybuffer.isview.ts",
+      "../src/lib/map.ts",
+      "../src/lib/string.prototype.startswith.ts",
+      "../src/lib/weakmap.ts",
+      "../src/lib/set.ts",
+      "../src/test/main.ts"
     ]
   },
-  "version": "3.5.2"
+  "version": "3.7.5"
 }

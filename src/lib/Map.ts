@@ -9,7 +9,7 @@ export interface LightMap<K,V> {
     keys(): Iterable<K>;
 }
 
-class LightMapImpl<K,V> implements LightMap<K,V> {
+export class LightMapImpl<K,V> implements LightMap<K,V> {
 
     [Symbol.toStringTag]: string;
 

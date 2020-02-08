@@ -56,4 +56,5 @@ var LightMapImpl = /** @class */ (function () {
     };
     return LightMapImpl;
 }());
+exports.LightMapImpl = LightMapImpl;
 exports.Polyfill = typeof Map !== "undefined" ? Map : LightMapImpl;

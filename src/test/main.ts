@@ -2,36 +2,48 @@
 declare const console: any;
 declare const global: any;
 
-delete global["Map"];
 delete global["Set"];
 
-import { Polyfill as Map } from "../lib/Map";
-import { Polyfill as Set } from "../lib/Set";
+//NOTE: Cannot delete Map as used by import().
+import { LightMapImpl } from "../lib/Map";
+import { Polyfill as Set, LightSetImpl } from "../lib/Set";
+
+function assert(condition: any, msg?: string): asserts condition {
+    if (!condition) {
+        throw new Error(msg);
+    }
+}
 
 {
 
-    const m = new Map<Object, number>();
-
+    const m = new LightMapImpl<Object, number>();
 
     const o1 = ["o1"];
     const o2 = ["o2"];
 
     m
         .set(o1, 1)
-        .set(o2, 2);
+        .set(o2, 2)
+        ;
+
+    {
+
+        const keys = Array.from(m.keys());
+
+        assert(keys[0] === o1 && keys[1] === o2);
+
+    }
 
 
-    console.log(m.keys());
-
-    console.log(m.get(o1) === 1);
+    assert(m.get(o1) === 1);
 
     m.set(o1, 666);
 
-    console.log(m.get(o1) === 666);
+    assert(m.get(o1) === 666);
 
-    console.log(m.delete(o1) === true);
+    assert(m.delete(o1) === true);
 
-    console.log(m.get(o1) === undefined);
+    assert(m.get(o1) === undefined);
 
 }
 
@@ -40,26 +52,28 @@ import { Polyfill as Set } from "../lib/Set";
 
     const s = new Set<Object>();
 
+    assert(s instanceof LightSetImpl);
+
     const o1 = ["o1"];
     const o2 = ["o2"];
 
     s
         .add(o1)
-        .add(o2);
+        .add(o2)
+        ;
 
-    console.log(s.values());
+    {
+        const values = Array.from(s.values());
 
-    console.log(s.has(o1) === true);
+        assert(values[0] === o1 && values[1] === o2);
+    }
 
-    console.log(s.delete(o1) === true);
+    assert(s.has(o1) === true);
 
-    console.log(s.has(o1) === false);
+    assert(s.delete(o1) === true);
+
+    assert(s.has(o1) === false);
 
 }
 
-
-
-
-
-
-
+console.log("PASS");
