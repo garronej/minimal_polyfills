@@ -63,9 +63,7 @@ import "minimal-polyfills/dist/lib/ArrayBuffer.isView.ts";
 Thanks to Stackblitz you can try this lib with within your browser like if you where in VSCode. 
 
 <p align="center">
-    <img src="
-    https://user-images.githubusercontent.com/6702424/74532595-e1e28f00-4f2f-11ea-88d4-4f9fe6fa0d1b.png
-    ">  
+    <img src="https://user-images.githubusercontent.com/6702424/74532595-e1e28f00-4f2f-11ea-88d4-4f9fe6fa0d1b.png">  
 </p>
 
 [__Run the example__](https://stackblitz.com/edit/minimal-polyfills-demo?embed=1&file=index.ts)
