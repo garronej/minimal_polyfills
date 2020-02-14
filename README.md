@@ -20,6 +20,8 @@ The goal is to allow our code to run on older browsers without significantly inc
 The classes exposed only implement the more common features of their native counterpart, it does so in a very naïve and inefficient way to keep the code as short as possible.
 As you would expect the polyfills will only be used when the native classes are missing.
 
+
+
 # Usage
 
 
@@ -55,3 +57,15 @@ import "minimal-polyfills/dist/lib/String.prototype.startsWith.ts";
 import "minimal-polyfills/dist/lib/Array.from.ts";
 import "minimal-polyfills/dist/lib/ArrayBuffer.isView.ts";
 ```
+
+# Try it now
+
+Thanks to Stackblitz you can try this lib with within your browser like if you where in VSCode. 
+
+<p align="center">
+    <img src="
+    https://user-images.githubusercontent.com/6702424/74532595-e1e28f00-4f2f-11ea-88d4-4f9fe6fa0d1b.png
+    ">  
+</p>
+
+[__Run the example__](https://stackblitz.com/edit/minimal-polyfills-demo?embed=1&file=index.ts)
