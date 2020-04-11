@@ -1,12 +1,25 @@
 
 declare const console: any;
 declare const global: any;
+declare const Deno: any;
 
-delete global["Set"];
+let isDeno = false;
+
+if (typeof global !== "undefined") {
+    delete global["Set"];
+} else {
+    isDeno = true;
+}
+
 
 //NOTE: Cannot delete Map as used by import().
 import { LightMapImpl } from "../lib/Map";
 import { Polyfill as Set, LightSetImpl } from "../lib/Set";
+
+if (isDeno) {
+    console.log("Deno does not need polyfills. PASS");
+    Deno.exit(0);
+}
 
 function assert(condition: any, msg?: string): asserts condition {
     if (!condition) {

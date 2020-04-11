@@ -86,7 +86,7 @@
         "signature": "e8b446c98743d85b1bbb07576e1701e2c6db073086a828223cbbdbc9c63e7e7a"
       },
       "../src/test/main.ts": {
-        "version": "56ee9994ac45b2df6bca6c788802ab13655018237fb732cc568baa8933a166d7",
+        "version": "162bbb57862cba94b2d532a6f64d85c43d393f8f4ba26c300515f4f3abd9e640",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       }
     },
@@ -135,6 +135,17 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
       "../src/lib/array.from.ts",
       "../src/lib/array.prototype.find.ts",
       "../src/lib/arraybuffer.isview.ts",
@@ -145,18 +156,7 @@
       "../src/lib/string.prototype.startswith.ts",
       "../src/lib/weakmap.ts",
       "../src/lib/index.ts",
-      "../src/test/main.ts",
-      "../node_modules/typescript/lib/lib.es2015.d.ts",
-      "../node_modules/typescript/lib/lib.es5.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "../src/test/main.ts"
     ]
   },
   "version": "3.8.3"
