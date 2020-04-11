@@ -10,7 +10,9 @@
     },
     "scripts": {
         "tsc": "npx tsc -p tsconfig.json",
-        "test": "node ./dist/test/main"
+        "test": "node ./dist/test/main",
+        "denoify": "npx denoify",
+        "build": "npm run tsc && npm run denoify"
     },
     "author": "Joseph Garrone",
     "license": "MIT",
@@ -29,6 +31,10 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "typescript": "^3.5.2"
+        "typescript": "^3.5.2",
+        "denoify": "github:garronej/denoify"
+    },
+    "deno": {
+        "url": "https://raw.githubusercontent.com/garronej/minimal-polyfills/master/"
     }
 }
