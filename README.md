@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/6702424/74083910-7305c180-4a69-11ea-9595-331c7976c292.png">  
 </p>
 <p align="center">
-    <i> 🎯An ultra light-weight, nonexhaustive, polyfills library 🎯 </i>
+    <i> 🎯A collection of polyfills that focuses on being ultra light-weight 🎯 </i>
     <br>
     <br>
     <img src="https://img.shields.io/bundlephobia/min/minimal-polyfills">
@@ -14,16 +14,13 @@
 
 ---
 
-Set of polyfills for allowing usage of common data structures on older browsers ( Map, Set, WeakMap ).
+Set of polyfills for ``Map``, ``Set``, ``WeakMap`` and other standard functions that could be missing in some legacy runtime environnement.
 Focus is placed on bundle size rather than performance and transparency.  
 The goal is to allow our code to run on older browsers without significantly increasing the bundle size by adding exhaustive polyfills that in 95% of the cases won't be necessary.  
 The classes exposed only implement the more common features of their native counterpart, it does so in a very naïve and inefficient way to keep the code as short as possible.
 As you would expect the polyfills will only be used when the native classes are missing.
 
-
-
 # Usage
-
 
 ## Example with Map
 
@@ -56,6 +53,8 @@ import "minimal-polyfills/dist/lib/Array.prototype.find";
 import "minimal-polyfills/dist/lib/String.prototype.startsWith.ts";
 import "minimal-polyfills/dist/lib/Array.from.ts";
 import "minimal-polyfills/dist/lib/ArrayBuffer.isView.ts";
+import "minimal-polyfills/dist/lib/Object.is.ts";
+import "minimal-polyfills/dist/lib/Object.assign.ts";
 ```
 
 # Try it now

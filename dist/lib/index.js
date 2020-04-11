@@ -11,3 +11,5 @@ require("./Array.from");
 require("./Array.prototype.find");
 require("./ArrayBuffer.isView");
 require("./String.prototype.startsWith");
+require("./Object.assign");
+require("./Object.is");
