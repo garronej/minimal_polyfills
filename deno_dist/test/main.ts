@@ -13,8 +13,8 @@ if (typeof global !== "undefined") {
 
 
 //NOTE: Cannot delete Map as used by import().
-import { LightMapImpl } from "../lib/Map/index.ts";
-import { Polyfill as Set, LightSetImpl } from "../lib/Set/index.ts";
+import { LightMapImpl } from "../lib/Map.ts";
+import { Polyfill as Set, LightSetImpl } from "../lib/Set.ts";
 
 if (isDeno) {
     console.log("Deno does not need polyfills. PASS");
