@@ -17,7 +17,12 @@
                 "strictFunctionTypes": true,
                 "incremental": true
         },
-        "include": [
+        "filesGlob": [
                 "src/**/*"
+        ],
+        "exclude": [
+                "node_modules",
+                "dist/**/*",
+                "deno_dist/**/*"
         ]
 }

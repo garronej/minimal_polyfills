@@ -1,5 +1,5 @@
 
-import { Polyfill as MapPolyfill } from "./Map.ts";
+import { Polyfill as MapPolyfill } from "./Map/index.ts";
 
 export interface LightSet<T> {
     has(value: T): boolean;

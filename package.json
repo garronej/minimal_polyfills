@@ -35,6 +35,6 @@
         "denoify": "github:garronej/denoify"
     },
     "deno": {
-        "url": "https://raw.githubusercontent.com/garronej/minimal-polyfills/df5310bb2195c4ab328b4a96fc0287773a566cbb/"
+        "url": "https://raw.githubusercontent.com/garronej/minimal-polyfills/df5310bb2195c4ab328b4a96fc0287773a566cbb/mod.ts"
     }
 }
