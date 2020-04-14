@@ -13,3 +13,4 @@ require("./ArrayBuffer.isView");
 require("./String.prototype.startsWith");
 require("./Object.assign");
 require("./Object.is");
+//# sourceMappingURL=index.js.map

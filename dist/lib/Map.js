@@ -58,3 +58,4 @@ var LightMapImpl = /** @class */ (function () {
 }());
 exports.LightMapImpl = LightMapImpl;
 exports.Polyfill = typeof Map !== "undefined" ? Map : LightMapImpl;
+//# sourceMappingURL=Map.js.map

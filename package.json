@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "main": "./dist/lib/index.js",
     "types": "./dist/lib/index.d.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",

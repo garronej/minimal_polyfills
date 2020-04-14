@@ -99,7 +99,7 @@
       ],
       "declaration": true,
       "outDir": "./",
-      "sourceMap": false,
+      "sourceMap": true,
       "newLine": 1,
       "noUnusedLocals": true,
       "noUnusedParameters": true,

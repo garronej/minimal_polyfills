@@ -4,3 +4,4 @@ if (typeof String.prototype.startsWith !== "function") {
         return this.indexOf(str) === 0;
     };
 }
+//# sourceMappingURL=String.prototype.startsWith.js.map

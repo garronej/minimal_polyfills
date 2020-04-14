@@ -25,3 +25,4 @@ if (typeof Object.assign !== 'function') {
         configurable: true
     });
 }
+//# sourceMappingURL=Object.assign.js.map

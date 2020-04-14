@@ -12,3 +12,4 @@ if (!Object.is) {
         }
     };
 }
+//# sourceMappingURL=Object.is.js.map
