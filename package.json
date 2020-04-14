@@ -34,6 +34,11 @@
         "typescript": "^3.5.2",
         "denoify": "github:garronej/denoify"
     },
+    "files": [
+        "/dist/lib",
+        "/src/lib",
+        "/tsconfig.json"
+    ],
     "deno": {
         "url": "https://raw.githubusercontent.com/garronej/minimal_polyfills/1149d967b5eeb54e1c87c508df4ffdb120a4f499/mod.ts"
     }

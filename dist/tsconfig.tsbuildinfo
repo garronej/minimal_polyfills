@@ -133,8 +133,19 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../src/lib/array.from.ts",
+      "../src/lib/array.prototype.find.ts",
+      "../src/lib/arraybuffer.isview.ts",
+      "../src/lib/map.ts",
+      "../src/lib/object.assign.ts",
+      "../src/lib/object.is.ts",
+      "../src/lib/set.ts",
+      "../src/lib/string.prototype.startswith.ts",
+      "../src/lib/weakmap.ts",
+      "../src/lib/index.ts",
+      "../src/test/main.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.es2015.core.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
@@ -143,18 +154,7 @@
       "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
       "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../src/lib/array.from.ts",
-      "../src/lib/arraybuffer.isview.ts",
-      "../src/lib/map.ts",
-      "../src/lib/object.is.ts",
-      "../src/lib/set.ts",
-      "../src/lib/string.prototype.startswith.ts",
-      "../src/lib/weakmap.ts",
-      "../src/lib/index.ts",
-      "../src/test/main.ts",
-      "../src/lib/array.prototype.find.ts",
-      "../src/lib/object.assign.ts"
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
     ]
   },
   "version": "3.8.3"
