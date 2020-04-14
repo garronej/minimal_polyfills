@@ -40,6 +40,6 @@
         "/tsconfig.json"
     ],
     "deno": {
-        "url": "https://raw.githubusercontent.com/garronej/minimal_polyfills/ca448457b725a3ff1a0ce5de4f518c1b4b38a0d7/mod.ts"
+        "url": "https://raw.githubusercontent.com/garronej/minimal_polyfills/b7ed952522d45b96c8fb8751f14ea6e88dc595a3/mod.ts"
     }
 }
