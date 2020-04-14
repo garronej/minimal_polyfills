@@ -1,3 +1,4 @@
+"use strict";
 if (!Object.is) {
     Object.is = function (x, y) {
         // SameValue algorithm

@@ -46,11 +46,11 @@
         "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
       },
       "../src/lib/array.from.ts": {
-        "version": "624bc00c02fbc75c64a9503550b36495190ffa748924e501625db3f5c4b22103",
+        "version": "7c1b60c853f138086f5058ba740ff6959b2a08f09b3fd9fd8f164a0d32149186",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "../src/lib/array.prototype.find.ts": {
-        "version": "f1fa82a7123e3195c8f1ebc801e7c6febdfa034e6ffbc4ef3d82992d199ed887",
+        "version": "59e93f4825b13e1d473c6a0548b45c34ce86a008e01d24b7809c8b022527dc9c",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "../src/lib/arraybuffer.isview.ts": {
@@ -62,7 +62,7 @@
         "signature": "7908ba1a7a694d123a1cf71a1f33b95e6f6e9e3b318e43fc4240d7e539835c69"
       },
       "../src/lib/object.assign.ts": {
-        "version": "ea5c3f67a219ef41b4b0b2558671025948eb28af7cb32c5006218802878b8c5f",
+        "version": "c37bd1d6f27140fa7f8830001212aebf8a9ff438756384fa3b8f3bae3d1a7d78",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "../src/lib/object.is.ts": {
@@ -99,14 +99,12 @@
       ],
       "declaration": true,
       "outDir": "./",
-      "strictNullChecks": true,
       "sourceMap": false,
       "newLine": 1,
       "noUnusedLocals": true,
-      "noUnusedParameters": false,
-      "strictPropertyInitialization": true,
-      "strictFunctionTypes": true,
+      "noUnusedParameters": true,
       "incremental": true,
+      "strict": true,
       "project": "../tsconfig.json",
       "configFilePath": "../tsconfig.json"
     },
@@ -135,19 +133,8 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../src/lib/array.from.ts",
-      "../src/lib/array.prototype.find.ts",
-      "../src/lib/arraybuffer.isview.ts",
-      "../src/lib/map.ts",
-      "../src/lib/object.assign.ts",
-      "../src/lib/object.is.ts",
-      "../src/lib/set.ts",
-      "../src/lib/string.prototype.startswith.ts",
-      "../src/lib/weakmap.ts",
-      "../src/lib/index.ts",
-      "../src/test/main.ts",
-      "../node_modules/typescript/lib/lib.es2015.d.ts",
       "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
       "../node_modules/typescript/lib/lib.es2015.core.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
@@ -156,7 +143,18 @@
       "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
       "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../src/lib/array.from.ts",
+      "../src/lib/arraybuffer.isview.ts",
+      "../src/lib/map.ts",
+      "../src/lib/object.is.ts",
+      "../src/lib/set.ts",
+      "../src/lib/string.prototype.startswith.ts",
+      "../src/lib/weakmap.ts",
+      "../src/lib/index.ts",
+      "../src/test/main.ts",
+      "../src/lib/array.prototype.find.ts",
+      "../src/lib/object.assign.ts"
     ]
   },
   "version": "3.8.3"

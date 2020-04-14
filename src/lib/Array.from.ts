@@ -3,23 +3,24 @@
 if (!Array.from) {
   Array.from = (function () {
     var toStr = Object.prototype.toString;
-    var isCallable = function (fn) {
+    var isCallable = function (fn: any) {
       return typeof fn === 'function' || toStr.call(fn) === '[object Function]';
     };
-    var toInteger = function (value) {
+    var toInteger = function (value: any) {
       var number = Number(value);
       if (isNaN(number)) { return 0; }
       if (number === 0 || !isFinite(number)) { return number; }
       return (number > 0 ? 1 : -1) * Math.floor(Math.abs(number));
     };
     var maxSafeInteger = Math.pow(2, 53) - 1;
-    var toLength = function (value) {
+    var toLength = function (value: any) {
       var len = toInteger(value);
       return Math.min(Math.max(len, 0), maxSafeInteger);
     };
 
+
     // The length property of the from method is 1.
-    return function from(arrayLike/*, mapFn, thisArg */) {
+    return function from(this: any, arrayLike: any/*, mapFn, thisArg */) {
       // 1. Let C be the this value.
       var C = this;
 
