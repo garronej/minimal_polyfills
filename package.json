@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "main": "./dist/lib/index.js",
     "types": "./dist/lib/index.d.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
@@ -9,10 +9,10 @@
         "url": "git+https://github.com/garronej/minimal_polyfills.git"
     },
     "scripts": {
-        "tsc": "npx tsc -p tsconfig.json",
-        "test": "node ./dist/test/main && deno ./deno_dist/test/main.ts",
+        "tsc": "npx tsc",
         "denoify": "npx denoify",
-        "build": "npm run tsc && npm run denoify"
+        "build": "npm run tsc && npm run denoify",
+        "test": "node ./dist/test/main && deno ./deno_dist/test/main.ts"
     },
     "author": "Joseph Garrone",
     "license": "MIT",
@@ -36,10 +36,6 @@
     },
     "files": [
         "/dist/lib",
-        "/src/lib",
-        "/tsconfig.json"
-    ],
-    "deno": {
-        "url": "https://raw.githubusercontent.com/garronej/minimal_polyfills/b7ed952522d45b96c8fb8751f14ea6e88dc595a3/mod.ts"
-    }
+        "/src/lib"
+    ]
 }
