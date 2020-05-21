@@ -106,30 +106,3 @@ jobs:
         branch: master
         draft: false
         prerelease: false
-  add_to_deno_land_third_party_module_register:
-    runs-on: ubuntu-latest
-    needs: publish_deno
-    steps:
-    - name: Create a PR on denoland/deno_website2 to add ${{github.event.client_payload.repo}} if not already done.
-      id: id1
-      uses: garronej/github_actions_toolkit@v1.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT }} 
-      with:
-        action_name: submit_module_on_deno_land
-        owner: ${{github.repository_owner}}
-        repo: ${{github.event.client_payload.repo}}
-        commit_author_email: 'denoify_ci@github.com'
-    - name: "Print outcome"
-      env:
-        WAS_ALREADY_PUBLISHED: ${{ steps.id1.outputs.was_already_published }}
-      run: |
-       if [ "$WAS_ALREADY_PUBLISHED" = "true" ]; then
-         echo "The module is already published, if you can't see it yet it means that the PR hasn't been merged yet. See https://github.com/denoland/deno_website2/pulls"
-         false
-       fi
-       echo "A pull request has been issued to add the module: https://github.com/denoland/deno_website2/pulls"
-
-         
-         
-
