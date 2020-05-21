@@ -26,7 +26,7 @@ As you would expect the polyfills will only be used when the native classes are 
 
 ```typescript
 //Example with map.
-import { Polyfill as Map, LightMap } from "minimal-polyfills/dist/lib/Map";
+import { Polyfill as Map, LightMap } from "minimal-polyfills/Map";
 
 // Explicitly define the type of your variable to make it clear
 // that you are using a subset of Map...
@@ -41,20 +41,20 @@ const map = new Map<string, number>();
 ## Others data structures: 
 
 ```typescript
-import { Polyfill as Set, LightSet } from "minimal-polyfills/dist/lib/Set";
+import { Polyfill as Set, LightSet } from "minimal-polyfills/Set";
 //WARNING: If not natively supported WeakMap will only be a simple Map that will keep string references of it's keys.
-import { Polyfill as WeakMap } from "minimal-polyfills/dist/lib/WeakMap";
+import { Polyfill as WeakMap } from "minimal-polyfills/WeakMap";
 ```
 
 ## Common missing features on older browsers:
 
 ```typescript
-import "minimal-polyfills/dist/lib/Array.prototype.find";
-import "minimal-polyfills/dist/lib/String.prototype.startsWith.ts";
-import "minimal-polyfills/dist/lib/Array.from.ts";
-import "minimal-polyfills/dist/lib/ArrayBuffer.isView.ts";
-import "minimal-polyfills/dist/lib/Object.is.ts";
-import "minimal-polyfills/dist/lib/Object.assign.ts";
+import "minimal-polyfills/Array.prototype.find";
+import "minimal-polyfills/String.prototype.startsWith.ts";
+import "minimal-polyfills/Array.from.ts";
+import "minimal-polyfills/ArrayBuffer.isView.ts";
+import "minimal-polyfills/Object.is.ts";
+import "minimal-polyfills/Object.assign.ts";
 ```
 
 # Try it now
