@@ -35,8 +35,8 @@ const map: LightMap<string, number>= new Map();
 const map = new Map<string, number>();
 ```
 
-![Screenshot 2020-02-08 at 10 45 06](https://user-images.githubusercontent.com/6702424/74083059-210c6e00-4a60-11ea-8b63-1a42799a2ebd.png)
-![Screenshot 2020-02-08 at 10 46 34](https://user-images.githubusercontent.com/6702424/74083085-50bb7600-4a60-11ea-99ef-93d95d2d48f8.png)
+![Screenshot 2020-02-08 at 10 45 06](https://user-images.githubusercontent.com/6702424/82556081-564d4f80-9b69-11ea-9b62-46eaa910a2e3.png)
+![Screenshot 2020-02-08 at 10 46 34](https://user-images.githubusercontent.com/6702424/82556246-a5938000-9b69-11ea-8b3f-6a6036288ba1.png)
 
 ## Others data structures: 
 
@@ -62,7 +62,7 @@ import "minimal-polyfills/Object.assign.ts";
 Thanks to Stackblitz you can try this lib with within your browser like if you where in VSCode. 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/6702424/74532595-e1e28f00-4f2f-11ea-88d4-4f9fe6fa0d1b.png">  
+    <img src="https://user-images.githubusercontent.com/6702424/82556457-0622bd00-9b6a-11ea-8056-5a9c31a4ba39.png">  
 </p>
 
 [__Run the example__](https://stackblitz.com/edit/minimal-polyfills-demo?embed=1&file=index.ts)
