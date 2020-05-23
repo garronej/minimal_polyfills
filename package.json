@@ -37,9 +37,10 @@
     "dependencies": {},
     "devDependencies": {
         "typescript": "^3.5.2",
-        "denoify": "^0.2.11"
+        "denoify": "^0.2.13"
     },
     "files": [
+        "/src/",
         "/dist/*.{d.ts,js,js.map}"
     ]
 }
