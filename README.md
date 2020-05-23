@@ -6,7 +6,7 @@
     <i> 🎯A collection of polyfills that focuses on being ultra light-weight 🎯 </i>
     <br>
     <br>
-    <img src="https://img.shields.io/bundlephobia/min/minimal-polyfills">
+    <img src="https://github.com/garronej/minimal_polyfills/workflows/ci/badge.svg?branch=develop">
     <img src="https://img.shields.io/bundlephobia/minzip/minimal-polyfills">
     <img src="https://img.shields.io/david/garronej/minimal-polyfills">
     <img src="https://img.shields.io/npm/l/minimal-polyfills">
