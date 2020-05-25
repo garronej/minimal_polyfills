@@ -1,3 +1,7 @@
+### **2.1.2** (2020-05-25)  
+  
+- Update denoify    
+  
 ### **2.1.1** (2020-05-25)  
   
 - Update dev dependencies    
