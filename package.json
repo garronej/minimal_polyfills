@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "main": "./dist/index.js",
     "types": "./src/index.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
