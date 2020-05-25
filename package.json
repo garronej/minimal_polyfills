@@ -15,7 +15,7 @@
         "tsc": "npx tsc",
         "denoify": "npx denoify",
         "build": "npm run tsc && npm run denoify",
-        "enable_short_import_path:npm": "npm run build && npx denoify_enable_short_npm_import_path",
+        "enable_short_import_path:npm": "npm run build && npx denoify_enable_short_npm_import_path --.ts_alongside_.js=true",
         "enable_short_import_path:deno": "npm run build && npx denoify_enable_short_deno_import_path",
         "clean": "rm -rf dist deno_dist node_modules mod.ts"
     },
@@ -36,11 +36,11 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "typescript": "^3.5.2",
-        "denoify": "^0.2.13"
+        "typescript": "^3.9.3",
+        "denoify": "^0.2.14"
     },
     "files": [
-        "/src/",
+        "/src/*.ts",
         "/dist/*.{d.ts,js,js.map}"
     ]
 }

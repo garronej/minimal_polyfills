@@ -17,7 +17,7 @@ import { LightMapImpl } from "../Map";
 import { Polyfill as Set, LightSetImpl } from "../Set";
 
 if (isDeno) {
-    console.log("Deno does not need polyfills. PASS");
+    console.log("Deno does not need web polyfills. PASS");
     Deno.exit(0);
 }
 
