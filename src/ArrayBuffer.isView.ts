@@ -4,3 +4,5 @@ if (!ArrayBuffer["isView"]) {
     return a !== null && typeof(a) === "object" && a["buffer"] instanceof ArrayBuffer;
   };
 }
+
+export {};

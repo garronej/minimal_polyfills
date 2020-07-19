@@ -45,3 +45,5 @@ if (!Array.prototype.find) {
     writable: true
   });
 }
+
+export {};

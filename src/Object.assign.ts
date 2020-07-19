@@ -27,3 +27,5 @@ if (typeof Object.assign !== 'function') {
       configurable: true
     });
   }
+
+  export {};

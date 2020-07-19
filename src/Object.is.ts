@@ -11,3 +11,5 @@ if (!Object.is) {
       }
     };
   }
+
+  export {};

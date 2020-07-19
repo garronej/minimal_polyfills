@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "main": "./dist/index.js",
     "types": "./src/index.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
@@ -36,8 +36,8 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "typescript": "^3.9.3",
-        "denoify": "^0.2.15"
+        "typescript": "^3.9.7",
+        "denoify": "^0.3.3"
     },
     "files": [
         "/src/*.ts",

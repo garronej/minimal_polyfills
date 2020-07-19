@@ -6,3 +6,5 @@ if (typeof String.prototype.startsWith !== "function") {
     };
 
 }
+
+export {};
