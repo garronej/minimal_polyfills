@@ -59,7 +59,7 @@ jobs:
       run: ls -lR
     - name: Publishing on NPM
       run: |
-        if [ "$(npm show $MODULE_NAME version)" = "$VERSION" ]; then
+        if [ "$(npm show . version)" = "$VERSION" ]; then
           echo "This version is already published"
           exit 0
         fi
@@ -72,7 +72,6 @@ jobs:
         rm .npmrc
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        MODULE_NAME: ${{ github.event.client_payload.repo }}
         VERSION: ${{ github.event.client_payload.to_version }}
     - name: Commit changes
       run: |
