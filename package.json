@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "2.1.3",
+    "version": "2.1.4",
     "main": "./dist/index.js",
     "types": "./src/index.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
@@ -12,12 +12,8 @@
         "test:node": "node ./dist/test",
         "test:deno": "deno run ./deno_dist/test/index.ts",
         "test": "npm run test:node && npm run test:deno",
-        "tsc": "npx tsc",
-        "denoify": "npx denoify",
-        "build": "npm run tsc && npm run denoify",
-        "enable_short_import_path:npm": "npm run build && npx denoify_enable_short_npm_import_path",
-        "enable_short_import_path:deno": "npm run build && npx denoify_enable_short_deno_import_path",
-        "clean": "rm -rf dist deno_dist node_modules mod.ts"
+        "build": "tsc && denoify",
+        "enable_short_import_path": "npm run build && npx denoify_enable_short_npm_import_path"
     },
     "author": "Joseph Garrone",
     "license": "MIT",
@@ -37,7 +33,7 @@
     "dependencies": {},
     "devDependencies": {
         "typescript": "^3.9.7",
-        "denoify": "^0.3.3"
+        "denoify": "^0.4.1"
     },
     "files": [
         "/src/*.ts",
