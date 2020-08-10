@@ -1,3 +1,7 @@
+### **2.1.4** (2020-08-10)  
+  
+- Update denoify    
+  
 ### **2.1.3** (2020-07-19)  
   
 - Support --isolatedModules flag    
