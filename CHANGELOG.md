@@ -1,3 +1,7 @@
+### **2.1.5** (2020-08-27)  
+  
+- do not include .ts files    
+  
 ### **2.1.4** (2020-08-10)  
   
 - Update denoify    
