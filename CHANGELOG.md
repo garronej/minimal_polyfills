@@ -1,3 +1,8 @@
+### **2.1.6** (2020-12-14)  
+  
+- Re add package-lock.json  
+- Add Object.fromEntries    
+  
 ### **2.1.5** (2020-08-27)  
   
 - do not include .ts files    
