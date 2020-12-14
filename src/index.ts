@@ -9,6 +9,7 @@ import "./Array.prototype.find";
 import "./ArrayBuffer.isView";
 import "./String.prototype.startsWith";
 import "./Object.assign";
+import "./Object.fromEntries";
 import "./Object.is";
 
 export { nsMap, nsSet, nsWeakMap };

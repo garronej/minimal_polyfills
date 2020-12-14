@@ -53,6 +53,7 @@ import "minimal-polyfills/Array.prototype.find";
 import "minimal-polyfills/String.prototype.startsWith.ts";
 import "minimal-polyfills/Array.from.ts";
 import "minimal-polyfills/ArrayBuffer.isView.ts";
+import "minimal-polyfills/Object.fromEntries";
 import "minimal-polyfills/Object.is.ts";
 import "minimal-polyfills/Object.assign.ts";
 ```
