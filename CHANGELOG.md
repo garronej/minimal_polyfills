@@ -1,3 +1,7 @@
+## **2.2.0** (2021-05-26)  
+  
+- Add WeakMap polyfill    
+  
 ### **2.1.6** (2020-12-14)  
   
 - Re add package-lock.json  
