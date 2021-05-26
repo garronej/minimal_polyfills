@@ -44,6 +44,7 @@ const map = new Map<string, number>();
 import { Polyfill as Set, LightSet } from "minimal-polyfills/Set";
 //WARNING: If not natively supported WeakMap will only be a simple Map that will keep string references of it's keys.
 import { Polyfill as WeakMap } from "minimal-polyfills/WeakMap";
+import { Polyfill as WeakSet } from "minimal-polyfills/WeakSet";
 ```
 
 ## Common missing features on older browsers:
