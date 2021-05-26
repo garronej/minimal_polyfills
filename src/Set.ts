@@ -2,6 +2,7 @@
 import { Polyfill as MapPolyfill } from "./Map";
 
 export interface LightSet<T> {
+    [Symbol.toStringTag]: string;
     has(value: T): boolean;
     add(value: T): this;
     values(): Iterable<T>;
@@ -9,6 +10,8 @@ export interface LightSet<T> {
 }
 
 export class LightSetImpl<T> implements LightSet<T> {
+
+    [Symbol.toStringTag]: string;
 
     private readonly map= new MapPolyfill<T, true>();
 
