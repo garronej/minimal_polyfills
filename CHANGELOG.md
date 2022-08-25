@@ -1,3 +1,8 @@
+### **2.2.2** (2022-08-25)  
+  
+- #7  
+- Update README.md    
+  
 ## **2.2.1** (2021-05-26)  
   
 - Update documentation    
