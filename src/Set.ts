@@ -11,7 +11,7 @@ export interface LightSet<T> {
 
 export class LightSetImpl<T> implements LightSet<T> {
 
-    [Symbol.toStringTag]: string;
+    [Symbol.toStringTag]!: string;
 
     private readonly map= new MapPolyfill<T, true>();
 

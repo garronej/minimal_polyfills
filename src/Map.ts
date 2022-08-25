@@ -11,7 +11,7 @@ export interface LightMap<K,V> {
 
 export class LightMapImpl<K,V> implements LightMap<K,V> {
 
-    [Symbol.toStringTag]: string;
+    [Symbol.toStringTag]!: string;
 
     private readonly record: [K, V][]= [];
 
