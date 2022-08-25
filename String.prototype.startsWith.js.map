@@ -1,0 +1,1 @@
+{"version":3,"file":"String.prototype.startsWith.js","sourceRoot":"","sources":["src/String.prototype.startsWith.ts"],"names":[],"mappings":";;AACA,IAAI,OAAO,MAAM,CAAC,SAAS,CAAC,UAAU,KAAK,UAAU,EAAE;IAEnD,MAAM,CAAC,SAAS,CAAC,UAAU,GAAG,SAAS,UAAU,CAAC,GAAG;QACnD,OAAO,IAAI,CAAC,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;IACjC,CAAC,CAAC;CAEL"}
