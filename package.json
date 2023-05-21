@@ -1,6 +1,6 @@
 {
     "name": "minimal-polyfills",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
     "repository": {
         "type": "git",
