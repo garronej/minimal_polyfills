@@ -1,0 +1,221 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../src/Array.from.ts": {
+        "version": "c654dae5dbb90a40e15a401a866d017b31aabacece4cfd1b9a569f92a3fb44d8",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/Array.prototype.find.ts": {
+        "version": "54a1866655066ecb8604efb60c85fe0d77d19783eefe3f9da9aa7b378d1a48b3",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/ArrayBuffer.isView.ts": {
+        "version": "c0843e388939c3c420f38e0eb839d7effbec84dd2f1f452794ef0520d05409a3",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/Map.ts": {
+        "version": "6cee47a1634c386e126e33bb271f4f44cb7de8c547340cd65f56fdf99c9ce2d9",
+        "signature": "7908ba1a7a694d123a1cf71a1f33b95e6f6e9e3b318e43fc4240d7e539835c69",
+        "affectsGlobalScope": false
+      },
+      "../src/Object.assign.ts": {
+        "version": "8bc921a73eedd05c74f2f12737b136fc1c367ef39236f3de4aaa40a7ab310525",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/Object.fromEntries.ts": {
+        "version": "41f0a8b025dd1f3c819eef8abad678ecf153a95432bd2f7bb37050ca35d49dc1",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/Object.is.ts": {
+        "version": "2ee475125e2a79cbcd09a6743dda5809e23a8f75aee5472c02959aaf4a447254",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/Set.ts": {
+        "version": "0564078c04cc837de3758d827e2b0de310ce0d375f5da811f3f74493ddde3b8c",
+        "signature": "1b0fbcfd187c1d8cf71ecb3c80eba542a6f7f2bf9966443dbbabb9017c947252",
+        "affectsGlobalScope": false
+      },
+      "../src/String.prototype.startsWith.ts": {
+        "version": "7fd1148c1fc23adff1acf53efefadc7e407008dacc70ab9096fae9a4e8a1dbc4",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/WeakMap.ts": {
+        "version": "b17cc904902c54524021afe32786210d806706ac25e96beddbb831b9ac14226e",
+        "signature": "8859f48246358af1e7e026f24ea47730737bb043c96e2228f4dfd22041fa589b",
+        "affectsGlobalScope": false
+      },
+      "../src/WeakSet.ts": {
+        "version": "4cd9a7b341e55e29e483e282073d47bfeea8da054b9432f32fc6398dae2b99b6",
+        "signature": "4ced39ed5eff85283501348583dcaa427940b3db8e071cf92d11e46058be2e5e",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "05ff742b086c6325cd48286e27d2d3cf12a9c2c69dc328f0415b9aaae6aae7bd",
+        "signature": "e2019a898f235ad24e9dd0e937a7e433342ef8296b1ce68a46feabd20514d860",
+        "affectsGlobalScope": false
+      },
+      "../src/test/index.ts": {
+        "version": "a7521db27b0a39760e20fa95bf628258ac080483d3aaf26bf36d14844c684a68",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/comment-json/index.d.ts": {
+        "version": "c401118ea6c6daa9f196013b0622c602d4faec565bb1cc6ca751d2a8fc295498",
+        "signature": "c401118ea6c6daa9f196013b0622c602d4faec565bb1cc6ca751d2a8fc295498",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "module": 1,
+      "target": 0,
+      "lib": [
+        "lib.es5.d.ts",
+        "lib.es2015.d.ts"
+      ],
+      "declaration": true,
+      "outDir": "./",
+      "sourceMap": true,
+      "newLine": 1,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "incremental": true,
+      "strict": true,
+      "isolatedModules": true,
+      "esModuleInterop": false,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../src/Set.ts": [
+        "../src/Map.ts"
+      ],
+      "../src/WeakMap.ts": [
+        "../src/Map.ts"
+      ],
+      "../src/WeakSet.ts": [
+        "../src/Set.ts"
+      ],
+      "../src/index.ts": [
+        "../src/Array.from.ts",
+        "../src/Array.prototype.find.ts",
+        "../src/ArrayBuffer.isView.ts",
+        "../src/Map.ts",
+        "../src/Object.assign.ts",
+        "../src/Object.fromEntries.ts",
+        "../src/Object.is.ts",
+        "../src/Set.ts",
+        "../src/String.prototype.startsWith.ts",
+        "../src/WeakMap.ts",
+        "../src/WeakSet.ts"
+      ],
+      "../src/test/index.ts": [
+        "../src/Map.ts",
+        "../src/Set.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/index.ts": [
+        "../src/Array.from.ts",
+        "../src/Array.prototype.find.ts",
+        "../src/ArrayBuffer.isView.ts",
+        "../src/Map.ts",
+        "../src/Object.assign.ts",
+        "../src/Object.fromEntries.ts",
+        "../src/Object.is.ts",
+        "../src/Set.ts",
+        "../src/String.prototype.startsWith.ts",
+        "../src/WeakMap.ts",
+        "../src/WeakSet.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@types/comment-json/index.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../src/Array.from.ts",
+      "../src/Array.prototype.find.ts",
+      "../src/ArrayBuffer.isView.ts",
+      "../src/Map.ts",
+      "../src/Object.assign.ts",
+      "../src/Object.fromEntries.ts",
+      "../src/Object.is.ts",
+      "../src/Set.ts",
+      "../src/String.prototype.startsWith.ts",
+      "../src/WeakMap.ts",
+      "../src/WeakSet.ts",
+      "../src/index.ts",
+      "../src/test/index.ts"
+    ]
+  },
+  "version": "3.9.10"
+}
