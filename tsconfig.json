@@ -14,7 +14,8 @@
 		"noUnusedParameters": true,
 		"incremental": true,
 		"strict": true,
-		"isolatedModules": true
+		"isolatedModules": true,
+		"esModuleInterop": false
 	},
 	"filesGlob": [
 		"src/**/*"

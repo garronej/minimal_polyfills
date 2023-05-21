@@ -1,12 +1,16 @@
 {
     "name": "minimal-polyfills",
     "version": "2.2.2",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
     "description": "An ultra light-weight, nonexhaustive, polyfills library",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/garronej/minimal_polyfills.git"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": "./dist/index.js",
+        "./*": "./dist/*.js"
     },
     "scripts": {
         "test:node": "node ./dist/test",
